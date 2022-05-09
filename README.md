@@ -1,3 +1,5 @@
+![Logo](https://github.com/charliegene14/MenuizMan/blob/main/assets/img/logo_sm.png)
+
 # MenuizMan
 
 MenuizMan est une application web de gestion de tickets de Service Après Vente.

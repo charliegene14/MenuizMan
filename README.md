@@ -3,9 +3,12 @@
 MenuizMan est une application web de gestion de tickets de Service Après Vente.
 Elle est basée sur un cahier des charges fictif et a été produite dans le cadre de la formation Développement Web et Web Mobile a l'AFPA.
 
+**Cahier des charges** : [lien GitHub](https://github.com/charliegene14/MenuizMan/blob/main/docs/Cahier%20des%20charges.pdf "Cahier des charges")
+**Notre document technique complet** : [lien GitHub](https://github.com/charliegene14/MenuizMan/blob/main/docs/Dossier_Technique.pdf "Document technique")
+
 # Auteurs
 
-Charlie-Gene Denier & Romain Lefèvre
+[Charlie-Gene Denier](https://charlieishere.fr "Charlie's Website") & Romain Lefèvre
 
 # Procédure d’installation
 

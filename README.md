@@ -4,6 +4,7 @@ MenuizMan est une application web de gestion de tickets de Service Après Vente.
 Elle est basée sur un cahier des charges fictif et a été produite dans le cadre de la formation Développement Web et Web Mobile a l'AFPA.
 
 # Auteurs
+
 Charlie-Gene Denier & Romain Lefèvre
 
 # Procédure d’installation
@@ -11,8 +12,11 @@ Charlie-Gene Denier & Romain Lefèvre
 ## I) Prérequis
 
 • PHP 7.4.19 minimum.
+
 • Base de donnée MySQL + phpMyAdmin (ou tout autre outil de gestion).
+
 • Composer (si le dossier vendor à la racine n’est pas présent).
+
 • PHP-CLI pour un essai en local.
 
 ## II) Installation

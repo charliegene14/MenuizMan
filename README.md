@@ -3,14 +3,14 @@ MenuizMan is a ticket manager wep application, based on a specifications book an
 
 # Procédure d’installation
 
-I) Prérequis
+## I) Prérequis
 
 • PHP 7.4.19 minimum.
 • Base de donnée MySQL + phpMyAdmin (ou tout autre outil de gestion).
 • Composer (si le dossier vendor à la racine n’est pas présent).
 • PHP-CLI pour un essai en local.
 
-II) Installation
+## II) Installation
 
 • Si le dossier vendor n’est pas présent à la racine du projet (www), lancer la commande
 composer install depuis ce dossier.
@@ -29,14 +29,14 @@ nécessaires ( ! Voir compatibilité III) !).
 • Modifier le fichier settings/database.ini pour configurer l’hôte et le mot de passe de la
 base de donnée.
 
-III) Compatibilité
+## III) Compatibilité
 
-  1) Nom de base de donnée
+###  1) Nom de base de donnée
 
 Dans le fichier SQL, la base de donnée est nommée menuiz par défaut, selon votre
 configuration il faut changer certaines requêtes (+ la procédure ).
 
-  2) Les utilisateurs de base de donnée
+###  2) Les utilisateurs de base de donnée
 
 Vous devez avoir le privilège de création d’utilisateur sur la base de donnée.
 Dans le fichier settings/database.ini, chaque section sous « DB » correspondent aux
@@ -44,4 +44,4 @@ utilisateurs de base de donnée.
 En cas d’accès interdit, changer tous les login/mdp par celui de votre accès à la base de
 donnée et commentez les requêtes d’insertions dans le fichier sql.
 
-IV) Comptes par défaut de l’application
+## IV) Comptes par défaut de l’application

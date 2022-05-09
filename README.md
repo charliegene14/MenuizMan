@@ -1,5 +1,10 @@
 # MenuizMan
-MenuizMan is a ticket manager wep application, based on a specifications book and created as part of my AFPA training . 
+
+MenuizMan est une application web de gestion de tickets de Service Après Vente.
+Elle est basée sur un cahier des charges fictif et a été produite dans le cadre de la formation Développement Web et Web Mobile a l'AFPA.
+
+# Auteurs
+Charlie-Gene Denier & Romain Lefèvre
 
 # Procédure d’installation
 

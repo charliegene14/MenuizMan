@@ -7,7 +7,7 @@ Elle est basée sur un cahier des charges fictif et a été produite dans le cad
 
 **Cahier des charges** : [lien GitHub](https://github.com/charliegene14/MenuizMan/blob/main/docs/Cahier%20des%20charges.pdf "Cahier des charges")
 
-**Notre document technique complet** : [lien GitHub](https://github.com/charliegene14/MenuizMan/blob/main/docs/Dossier_Technique.pdf "Document technique")
+**Notre dossier technique complet** : [lien GitHub](https://github.com/charliegene14/MenuizMan/blob/main/docs/Dossier_Technique.pdf "Dossier technique")
 
 # Auteurs
 

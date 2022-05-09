@@ -1,0 +1,31 @@
+#admin-home table {
+    color: var(--black);
+    
+}
+
+#admin-home h3 a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+#admin-home h3 a:not(i):hover {
+
+    color: var(--greyblue);
+}
+
+#admin-home h3 a i {
+    color: var(--bs-success);
+}
+
+#admin-home .fa-trash-can {
+    color: var(--bs-danger);
+}
+
+#admin-home .fa-square-arrow-up-right {
+    color: var(--bs-success);
+}
+
+#admin-home .fa-trash-can,
+#admin-home .fa-square-arrow-up-right {
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+#article a {
+    color: var(--blue)!important;
+}
+
+#article table {
+    color: var(--black);
+}
+
+#article .card {
+    background-color: var(--white);
+}
+
+#article table#table-storage {
+    width: 100%;
+}
+
+#article table .fas {
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#article table .fas.fa-minus {
+    color: var(--bs-danger);
+}
+
+#article table .fas.fa-plus {
+    color: var(--bs-success);
+}
+
+#copy-articleID:hover {
+    cursor: pointer;
+    color : var(--blue);
+}
+
+
+#mess-copied {
+    padding-left: 2vh;
+    display : none;
+    color : var(--black);
+}

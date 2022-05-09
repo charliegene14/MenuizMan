@@ -1,0 +1,42 @@
+#login .container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 10%;
+}
+
+#login h1 {
+
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#login button[type="submit"] {
+
+    border: none;
+    background: none;
+    font-size: 2em;
+    float: right;
+}
+
+#login label {
+    margin-right: 1rem;
+}
+
+#login #form-id,
+#login #form-password {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    margin-bottom: 1rem;
+
+}
+
+#login input {
+    width: 60%;
+}

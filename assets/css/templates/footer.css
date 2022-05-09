@@ -1,0 +1,19 @@
+footer {
+
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    color: var(--white);
+    background-color: var(--greyblue);
+    width: 100vw;
+    height: 32px;
+    font-size: 0.8rem;
+}
+
+footer a {
+    color: var(--white);
+}
+
+footer a:hover {
+    color: var(--white);
+}

@@ -1,0 +1,24 @@
+#stats #done {
+    position: relative;
+}
+
+#stats #done span {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#stats span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#stats #charts-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

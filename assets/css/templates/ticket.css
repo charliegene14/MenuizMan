@@ -1,0 +1,144 @@
+#ticket {
+    width: 100%;
+}
+
+#ticket #ticket-container{
+    padding-bottom: 16px;
+}
+
+#ticket .main-title {
+    text-align: center;
+    justify-content: center;
+}
+
+#ticket #ticket-actions-list {
+    display: flex;
+    flex-direction: column;
+}
+
+#ticket .ticket-action {
+    display: flex;
+}
+
+#ticket .ticket-action-left,
+#ticket .ticket-action-right {
+    padding-top: 2rem;
+    width: 50%;
+}
+
+#ticket .ticket-action-left {
+    text-align: right;
+    padding-right: 2rem;
+}
+
+#ticket .ticket-action-right {
+    position: relative;
+    border-left: 4px solid var(--black);
+    padding-left: 2rem;
+}
+
+#ticket .ticket-action-right .fa-circle {
+    position: absolute;
+    left: 0;
+    transform: translate(-60%, 60%);
+}
+
+#ticket .ticket-action-right .fa-caret-left {
+    position: absolute;
+    font-size: 2.5em;
+    transform: translate(-50%);
+}
+
+#ticket .ticket-action-right .fa-caret-left::before {
+    color: var(--greyblue);
+}
+
+#ticket .ticket-action-right p {
+    border-radius: 4px;
+    padding: 8px;
+    background-color: var(--greyblue);
+    color: var(--white);
+    box-shadow:  4px 4px 8px rgba(0, 0, 0, 0.40);
+}
+
+#ticket .ticket-action.todo .ticket-action-right p,
+#ticket .ticket-action.choice .ticket-action-right p {
+
+    background-color: rgb(163, 163, 163);
+    color: var(--black);
+}
+
+
+
+#ticket .ticket-action.todo .ticket-action-right .fa-caret-left::before,
+#ticket .ticket-action.choice .ticket-action-right .fa-caret-left::before {
+    color: rgb(163, 163, 163);
+}
+
+#ticket .ticket-action .ticket-action-right p {
+    width: fit-content;
+}
+
+#ticket #check {
+    font-size: 2.5rem;
+    color: var(--bs-success);
+    position: relative;
+    left: 50%;
+    top: 1rem;
+    transform: translateX(-45%);
+}
+
+#ticket .todo .ticket-action-right,
+#ticket .choice .ticket-action-right {
+    border-left: 4px dotted var(--black);
+}
+
+#ticket .inwork .ticket-action-right {
+    border-left: 4px dashed var(--black);
+}
+
+#ticket .choice,
+#ticket .inwork {
+    opacity: 0.70;
+}
+
+#ticket .choice:hover {
+    opacity: 1 !important;
+}
+
+#ticket #ticket-infos {
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+#choice-submit {
+    margin-top: 1vh;
+    height: 23px;
+    line-height: 10px;
+   
+}
+
+#ticket #close {
+    display: flex;
+    justify-content: center; 
+}
+
+#workingon {
+    display: flex;
+    justify-content: center; 
+}
+
+#input-container{
+    position: relative;
+}
+
+#paste-img{
+    position: absolute;
+    right: 5px;
+    top:50%;
+    transform: translateY(-50%);
+}
+#paste-img:hover{
+    cursor: pointer;
+    color: var(--blue);
+}

@@ -1,0 +1,52 @@
+main section {
+    margin-bottom: 4vh;
+}
+
+.bold {
+    font-weight:bold ;
+}
+.detail-purchase-hidden {
+    display: none;
+}
+
+.detail-purchase-show {
+    display: block;
+}
+
+.detail-subtittle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-purchase:nth-of-type(2n+1){
+    background-color: var(--greyblue);
+    color: var(--white);
+}
+
+.client-purchase {
+    padding:1vh;
+}
+
+.detail-purchase-show {
+    padding-left: 10%;
+    padding-top: 1vh !important;
+}
+
+.link-ticket,.link-ticket-allpurchase{
+    padding-left: 2vh;
+    font-weight: bold;
+    color : var(--blue);
+}
+
+.link-ticket:hover,.link-ticket-allpurchase:hover{
+    color : var(--black)  !important;
+}
+
+.detail-article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-ticket-allpurchase {
+    padding-left: 0vh !important;
+}

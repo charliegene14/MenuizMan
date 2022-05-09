@@ -1,0 +1,12 @@
+#purchase a {
+    color: var(--blue)!important;
+}
+
+#purchase table {
+    color: var(--black);
+}
+
+#purchase .card {
+    background-color: var(--white);
+
+}

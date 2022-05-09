@@ -1,0 +1,79 @@
+/* import css variables */
+@import url("var/colors.css");
+@import url("var/zindex.css");
+
+/* import css templates pages */
+@import url("templates/loader.css");
+@import url("templates/header.css");
+@import url("templates/footer.css");
+@import url("templates/404.css");
+@import url("templates/login.css");
+@import url("templates/home.css");
+@import url("templates/main.css");
+@import url("templates/search.css");
+@import url("templates/ticket.css");
+@import url("templates/create_ticket.css");
+@import url("templates/customer.css");
+@import url("templates/purchase.css");
+@import url("templates/article.css");
+@import url("templates/admin.css");
+@import url("templates/stats.css");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Calibri', sans-serif!important;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--white)!important;
+    background: url("../img/bg.svg");
+    background-size: cover;
+
+    overflow-x: hidden;
+}
+
+.card {
+  background-color: var(--white);
+}
+
+.btn-primary {
+    background-color: var(--blue);
+}
+
+.btn-primary:hover {
+    background-color: var(--greyblue);
+}
+
+input, .card, select {
+    border-radius: 0.25rem!important;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #111b4b #b0b0b0;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #b0b0b0;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #111b4b;
+    border-radius: 10px;
+    border: 0px solid #ffffff;
+  }

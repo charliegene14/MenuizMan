@@ -45,3 +45,7 @@ En cas d’accès interdit, changer tous les login/mdp par celui de votre accès
 donnée et commentez les requêtes d’insertions dans le fichier sql.
 
 ## IV) Comptes par défaut de l’application
+|     | Admin | Manager | HotLine Tech | After Sale Tech |
+|-----|-------|---------|--------------|-----------------|
+|Login| Admin | Manager | Hltech | Astech|
+|Password| Admin|Manager|Hltech|Astech
